@@ -1,4 +1,4 @@
-const _CACHE_NAME = "cache";
+const _CACHE_NAME = "cache1";
 
 self.addEventListener("install", (event) => {
     console.log("INSTALL");
