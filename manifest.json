@@ -2,7 +2,6 @@
     "theme_color": "#f63f35",
     "background_color": "#35c3f6",
     "display": "standalone",
-    "scope": "/",
     "start_url": "https://tlapopo.github.io/CitasAutolavado/",
     "name": "CitasAutolavado",
     "short_name": "Autolavado Cars ",
