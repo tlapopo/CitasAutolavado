@@ -50,7 +50,7 @@ a {
 .wrapper {
   min-height: 100vh;
   position: relative;
-  background: url("../images/bg-registration-form-9.jpg") no-repeat right center;
+  background: url("../images/fondo.jpg") no-repeat right center;
   background-size: cover; }
 
 .inner {
