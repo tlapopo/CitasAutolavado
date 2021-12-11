@@ -2,7 +2,7 @@ const _CACHE_NAME = "cache";
 
 self.addEventListener("install", (event) => {
     console.log("INSTALL");
-    const _FILES = ["index.html","./js/main.js", "./js/jquery-3.3.1.main.js","./css/style.css", "./css/style.css.map"];
+    const _FILES = ["index.html","./css/style.css", "./css/style.css.map"];
 
     const _APP_SHELL = caches
     .open(_CACHE_NAME)
