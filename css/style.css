@@ -21,6 +21,11 @@ body {
   margin: 0;
   color: #999; }
 
+  .ti {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+  }
+
 input, textarea, select {
   font-family: "Muli-Regular";
   font-size: 13px;
@@ -235,5 +240,9 @@ button {
       margin-bottom: 25px; }
       .form-row .form-wrapper:first-child {
         margin-right: 0; } }
+
+        .ce{
+          margin-right: auto;
+        }
 
 /*# sourceMappingURL=style.css.map */

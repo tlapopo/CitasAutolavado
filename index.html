@@ -17,6 +17,7 @@
 		<!-- STYLE CSS -->
 		<link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="./images/autolavado.png"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 	</head>
 
 	<body>
@@ -25,7 +26,9 @@
 			<div class="inner">
 				<form action="">
                     <center>
-					<h3 >Autolavado Cars</h3>
+                        
+                        <h3 class="ti">Autolavado Cars</h3>
+                   
                 </center>
 					<div class="form-row">
 						<div class="form-wrapper">
@@ -44,9 +47,8 @@
 							<input type="text" class="form-control datepicker-here" data-language='en' data-date-format="dd M yyyy" id="dp1">
 						</div>
 						<div class="form-wrapper">
-							<label for="">Check-out *</label>
-							<span class="lnr lnr-calendar-full"></span>
-							<input type="text" class="form-control datepicker-here" data-language='en'  data-date-format="dd M yyyy" id="dp2">
+							<label for="">Hora de la cita *</label>
+							<input type="time" class="form-control" >
 						</div>
 					</div>
 					<div class="form-row last">
@@ -77,13 +79,15 @@
 					</div>
 					<div class="checkbox">
 						<label>
-							<input type="checkbox"> No one rejects, dislikes, or avoids pleasure itself.
+							<input type="checkbox"> Aceptas los terminos y condiciones.
 							<span class="checkmark"></span>
 						</label>
 					</div>
+                    
 					<button data-text="Book Room">
 						<span>Book Room</span>
 					</button>
+               
 				</form>
 			</div>
 		</div>
